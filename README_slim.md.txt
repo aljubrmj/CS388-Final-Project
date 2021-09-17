@@ -1,17 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** aljubrmj, ERE-251_PVT-Simulator, MJAljubran, m.j.aljubran@gmail.com, PVT Simulator, Reservoir fluids consist of complex mixtures of hydrocarbons and nonhydrocarbons existing at high pressure and temperature conditions, making it nearly impossible to fully describe their chemical structure. Depleted after years of production, the light-oil reservoir at hand is analyzed as a candidate for enhanced oil recovery (EOR). Several experiments have been conducted to characterize the reservoir fluid, including compositional analysis, plus fraction gas-oil ratio and molecular weight properties, constant mass expansion (CME), swelling tests with CO2, and unswollen reservoir fluid viscosity. The objective of this project is to create a PVT-laboratory simulator that accurately reproduces available experimental data, and predicts other PVT fluid properties and phase behavior. This comprised of several steps, including expansion and lumping of components, tuning, CME, differential liberation (DLE), oil-phase viscosity, and pressure-temperature (PT) envelop construction.
--->
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -32,17 +18,38 @@
 <br />
 <p align="center">
 
-  <h3 align="center">PVT Simulator</h3>
+  <h3 align="center">University of Texas at Austin CS388 Class Final Project</h3>
 
   <p align="center">
-    Reservoir fluids consist of complex mixtures of hydrocarbons and nonhydrocarbons existing at high pressure and temperature conditions, making it nearly impossible to fully describe their chemical structure. Depleted after years of production, the light-oil reservoir at hand is analyzed as a candidate for enhanced oil recovery (EOR). Several experiments have been conducted to characterize the reservoir fluid, including compositional analysis, plus fraction gas-oil ratio and molecular weight properties, constant mass expansion (CME), swelling tests with CO2, and unswollen reservoir fluid viscosity. The objective of this project is to create a PVT-laboratory simulator that accurately reproduces available experimental data, and predicts other PVT fluid properties and phase behavior. This comprised of several steps, including expansion and lumping of components, tuning, CME, differential liberation (DLE), oil-phase viscosity, and pressure-temperature (PT) envelop construction.
+This project explores the application of pretrained
+contextual embedding (PCE) models
+in comparison to the bidirectional attentive
+reader (baseline) implemented by the CS-388
+staff. Particularly, I applied DistilBERT (Sanh
+et al., 2019) as it is 60% faster to train
+and retains 97% of the base BERT performance.
+Model comparison was conducted on
+the SQuAD 1.1 (Rajpurkar et al., 2016) and
+SQuAD adverserial datasets (Jia and Liang,
+2017). The HuggingFace implementation of
+DistilBERT was utilized, hence I first had to
+ensure the SQuAD datasets used match to
+that provided by the class staff. Whereas the
+baseline model achieved 60.63% and 46.76%
+F1 scores on the SQuAD 1.1 and adverserial
+SQuAD datasets, respectively, the fine-tuned
+DistilBERT model achieved 85.4% and 69.4%,
+respectively. Analysis shows that both models
+struggle the most with ”why” questions, and
+achieve lower F1 scores with increasing answer
+lengths.
     <br />
-    <a href="https://github.com/aljubrmj/ERE-251_PVT-Simulator"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/aljubrmj/CS388-Final-Project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/aljubrmj/ERE-251_PVT-Simulator/issues">Report Bug</a>
+    <a href="https://github.com/aljubrmj/CS388-Final-Project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/aljubrmj/ERE-251_PVT-Simulator/issues">Request Feature</a>
+    <a href="https://github.com/aljubrmj/CS388-Final-Project/issues">Request Feature</a>
   </p>
 </p>
 
@@ -59,7 +66,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Name: [@MJAljubran](https://twitter.com/twitter_handle) - m.j.aljubran@gmail.com
 
-Project Link: [https://github.com/aljubrmj/ERE-251_PVT-Simulator](https://github.com/aljubrmj/ERE-251_PVT-Simulator)
+Project Link: [https://github.com/aljubrmj/CS388-Final-Project](https://github.com/aljubrmj/CS388-Final-Project)
 
 
 
@@ -68,16 +75,16 @@ Project Link: [https://github.com/aljubrmj/ERE-251_PVT-Simulator](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/aljubrmj/ERE-251_PVT-Simulator.svg?style=for-the-badge
-[contributors-url]: https://github.com/aljubrmj/ERE-251_PVT-Simulator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/aljubrmj/ERE-251_PVT-Simulator.svg?style=for-the-badge
-[forks-url]: https://github.com/aljubrmj/ERE-251_PVT-Simulator/network/members
-[stars-shield]: https://img.shields.io/github/stars/aljubrmj/ERE-251_PVT-Simulator.svg?style=for-the-badge
-[stars-url]: https://github.com/aljubrmj/ERE-251_PVT-Simulator/stargazers
-[issues-shield]: https://img.shields.io/github/issues/aljubrmj/ERE-251_PVT-Simulator.svg?style=for-the-badge
-[issues-url]: https://github.com/aljubrmj/ERE-251_PVT-Simulator/issues
-[license-shield]: https://img.shields.io/github/license/aljubrmj/ERE-251_PVT-Simulator.svg?style=for-the-badge
-[license-url]: https://github.com/aljubrmj/ERE-251_PVT-Simulator/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/aljubrmj/CS388-Final-Project.svg?style=for-the-badge
+[contributors-url]: https://github.com/aljubrmj/CS388-Final-Project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aljubrmj/CS388-Final-Project.svg?style=for-the-badge
+[forks-url]: https://github.com/aljubrmj/CS388-Final-Project/network/members
+[stars-shield]: https://img.shields.io/github/stars/aljubrmj/CS388-Final-Project.svg?style=for-the-badge
+[stars-url]: https://github.com/aljubrmj/CS388-Final-Project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aljubrmj/CS388-Final-Project.svg?style=for-the-badge
+[issues-url]: https://github.com/aljubrmj/CS388-Final-Project/issues
+[license-shield]: https://img.shields.io/github/license/aljubrmj/CS388-Final-Project.svg?style=for-the-badge
+[license-url]: https://github.com/aljubrmj/CS388-Final-Project/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mohammad-jabs/
 [product-screenshot]: images/screenshot.png
